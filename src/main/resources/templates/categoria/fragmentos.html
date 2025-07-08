@@ -1,4 +1,4 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity6">
@@ -42,6 +42,10 @@
                                 <div class="mb-3">
                                     <label for="descripcion">[[#{categoria.descripcion}]]</label>
                                     <input type="text" class="form-control" name="descripcion" required="true"/>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="detalle">[[#{categoria.descripcion}]]</label>
+                                    <textArea class="form-control" name="detalle" rows="3"></textArea>
                                 </div>
                                 <div class="mb-3">
                                     <label for="activo">[[#{categoria.activo}]]</label>
